@@ -34,7 +34,7 @@ export const Header: React.FC = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-[36px] h-[36px] sm:w-[36px] sm:h-[36px] text-textPrimary"
               >
-                <g clip-path="url(#clip0_88_28967)">
+                <g clipPath="url(#clip0_88_28967)">
                   <path
                     d="M24.1384 17.3876H11.8623L18.0001 7.00012L24.1384 17.3876Z"
                     fill="currentColor"

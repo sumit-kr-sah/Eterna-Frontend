@@ -5,7 +5,7 @@ export const mockTokens: TokenPair[] = [
     id: '1',
     name: 'ScoobyJoo',
     description: 'Golden ...',
-    icon: '🐕',
+    icon: 'i1.png',
     timeAgo: '4m',
     marketCap: {
       value: '$31.9K',
@@ -32,7 +32,7 @@ export const mockTokens: TokenPair[] = [
     id: '2',
     name: 'ScoobyJew',
     description: 'Golden ...',
-    icon: '🐕',
+    icon: 'i2.png',
     timeAgo: '12m',
     marketCap: {
       value: '$9.29K',
@@ -59,7 +59,7 @@ export const mockTokens: TokenPair[] = [
     id: '3',
     name: 'Ecliptic',
     description: 'Ecliptic token',
-    icon: '🌐',
+    icon: 'i3.png',
     timeAgo: '8m',
     marketCap: {
       value: '$189K',
@@ -86,7 +86,7 @@ export const mockTokens: TokenPair[] = [
     id: '4',
     name: 'MemeMas',
     description: 'MEMEMAS token',
-    icon: '🎭',
+    icon: 'i4.png',
     timeAgo: '15m',
     marketCap: {
       value: '$17.8K',
@@ -113,7 +113,7 @@ export const mockTokens: TokenPair[] = [
     id: '5',
     name: 'MONADCH...',
     description: 'Anime token',
-    icon: '🎌',
+    icon: 'i5.png',
     timeAgo: '20m',
     marketCap: {
       value: '$59.9K',
@@ -140,7 +140,7 @@ export const mockTokens: TokenPair[] = [
     id: '6',
     name: 'VOOY',
     description: 'Geometric token',
-    icon: '🔷',
+    icon: 'i6.png',
     timeAgo: '25m',
     marketCap: {
       value: '$9.88K',
@@ -167,7 +167,7 @@ export const mockTokens: TokenPair[] = [
     id: '7',
     name: 'SPB Snorting Pigeo...',
     description: 'Pigeon token',
-    icon: '🐦',
+    icon: 'i1.png',
     timeAgo: '30m',
     marketCap: {
       value: '$14.7K',

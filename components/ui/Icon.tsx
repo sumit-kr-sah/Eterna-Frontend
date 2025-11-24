@@ -123,6 +123,13 @@ export const Icon: React.FC<IconProps> = ({ name, className = '', size = 20 }) =
         <path d="M3 17V7M7 17V3M11 17v-6M15 17v-10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
+    discover: (
+      <svg width={size} height={size} viewBox="0 0 20 20" fill="none" className={className}>
+        <circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="1.5"/>
+        <circle cx="10" cy="10" r="2" fill="currentColor"/>
+        <path d="M10 2v2M10 16v2M2 10h2M16 10h2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      </svg>
+    ),
   };
   
   return <>{icons[name] || null}</>;
