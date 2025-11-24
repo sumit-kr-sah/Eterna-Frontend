@@ -130,6 +130,12 @@ export const Icon: React.FC<IconProps> = ({ name, className = '', size = 20 }) =
         <path d="M10 2v2M10 16v2M2 10h2M16 10h2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
       </svg>
     ),
+    clock: (
+      <svg width={size} height={size} viewBox="0 0 20 20" fill="none" className={className}>
+        <circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="1.5"/>
+        <path d="M10 6v4l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    ),
   };
   
   return <>{icons[name] || null}</>;
