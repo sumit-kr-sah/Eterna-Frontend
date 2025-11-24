@@ -1,9 +1,9 @@
-import React from 'react';
-import { Icon } from './ui/Icon';
+import React from "react";
+import { Icon } from "./ui/Icon";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-900 border-t border-gray-800">
+    <footer className="bg-[#06070B] border-t border-gray-800">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-14">
           {/* Left Section */}
@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
               <span className="text-white text-sm font-medium">PRESET 1</span>
               <Icon name="chevronDown" className="text-gray-400" size={14} />
             </div>
-            
+
             {/* Icons */}
             <div className="flex items-center space-x-3">
               <button className="text-gray-400 hover:text-white transition-colors">
@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
               </button>
             </div>
           </div>
-          
+
           {/* Center Section - Financial Metrics */}
           <div className="hidden lg:flex items-center space-x-6 text-sm">
             <div className="text-white">
@@ -50,21 +50,23 @@ export const Footer: React.FC = () => {
             <div className="text-gray-400">0.022</div>
             <div className="text-gray-400">0.004</div>
           </div>
-          
+
           {/* Right Section */}
           <div className="flex items-center space-x-4">
             {/* Connection Status */}
             <div className="hidden md:flex items-center space-x-2">
               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-              <span className="text-sm text-green-400">Connection is stable</span>
+              <span className="text-sm text-green-400">
+                Connection is stable
+              </span>
             </div>
-            
+
             {/* Global Selector */}
             <div className="flex items-center space-x-2 bg-gray-800 rounded px-3 py-1.5 cursor-pointer hover:bg-gray-700 transition-colors">
               <span className="text-white text-sm font-medium">GLOBAL</span>
               <Icon name="chevronDown" className="text-gray-400" size={14} />
             </div>
-            
+
             {/* Additional Icons */}
             <div className="hidden xl:flex items-center space-x-3">
               <button className="text-gray-400 hover:text-white transition-colors">
@@ -83,5 +85,3 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
-
-

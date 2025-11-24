@@ -24,8 +24,8 @@ export const Header: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center">
-            <div className="flex flex-row items-center ">
+          <div className="flex items-center mr-12">
+            <div className="flex flex-row items-center gap-2">
               <svg
                 width="36"
                 height="36"
@@ -100,19 +100,16 @@ export const Header: React.FC = () => {
           </div>
 
           {/* Navigation */}
-          <nav className="hidden lg:flex items-center space-x-6">
+          <nav className="hidden lg:flex items-center space-x-4">
             {navigationItems.map((item) => (
               <a
                 key={item.label}
                 href={item.href}
-                className={`text-sm text-white hover:text-blue-400 transition-colors relative ${
-                  item.isActive ? "text-blue-400" : ""
+                className={`text-sm font-medium px-3 py-2 rounded transition-all hover:bg-blue-900/40 hover:text-[#2775CA] ${
+                  item.isActive ? "text-[#2775CA]" : "text-white"
                 }`}
               >
                 {item.label}
-                {item.isActive && (
-                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-400"></span>
-                )}
               </a>
             ))}
           </nav>
@@ -132,7 +129,7 @@ export const Header: React.FC = () => {
           </div>
 
           {/* Right Side Actions */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3">
             {/* Currency Selector */}
             <div className="hidden lg:flex items-center space-x-1 bg-gray-800 rounded-full px-3 py-2 cursor-pointer hover:bg-gray-700 transition-colors">
               <span className="text-white text-sm font-medium">SOL</span>
@@ -149,14 +146,14 @@ export const Header: React.FC = () => {
             </Button>
 
             {/* Icons */}
-            <button className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors">
+            <button className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors shrink-0">
               <Icon
                 name="star"
                 size={20}
                 className="text-gray-400 hover:text-white"
               />
             </button>
-            <button className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors">
+            <button className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors shrink-0">
               <Icon
                 name="bell"
                 size={20}
@@ -165,7 +162,7 @@ export const Header: React.FC = () => {
             </button>
 
             {/* Numerical Indicators */}
-            <button className="hidden xl:flex w-fit min-w-max bg-gray-800 flex-row h-8 px-3 py-2 gap-2 justify-center items-center rounded-full hover:bg-gray-700 transition-colors">
+            <button className="hidden xl:flex w-fit min-w-max bg-gray-800 flex-row h-8 px-3 py-2 gap-2 items-center rounded-full hover:bg-gray-700 transition-colors shrink-0">
               <Icon name="wallet" size={18} className="text-white" />
               <div className="flex shrink-0 whitespace-nowrap flex-row gap-1 justify-start items-center">
                 <div className="w-4 h-4 rounded-full bg-yellow-400"></div>
@@ -180,7 +177,7 @@ export const Header: React.FC = () => {
             </button>
 
             {/* User Profile */}
-            <button className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors">
+            <button className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors shrink-0">
               <Icon
                 name="user"
                 size={20}

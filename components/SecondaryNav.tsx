@@ -3,7 +3,7 @@ import { Icon } from "./ui/Icon";
 
 export const SecondaryNav: React.FC = () => {
   return (
-    <div className="grayscale-[30%] hover:grayscale-0 transition-[filter] relative flex flex-row w-full h-[28px] gap-2 px-4 pb-px overflow-hidden border-b border-gray-800 sm:border-gray-800/50">
+    <div className="grayscale-[30%] bg-[#06070B] hover:grayscale-0 transition-[filter] relative flex flex-row w-full h-[28px] gap-2 px-4 pb-px overflow-hidden border-b border-gray-800 sm:border-gray-800/50">
       <div className="flex flex-row h-full items-center z-20 gap-2">
         <span className="contents">
           <button
@@ -49,7 +49,7 @@ export const SecondaryNav: React.FC = () => {
             }}
           ></div>
         </div>
-      </div>
+      </div>  
     </div>
   );
 };

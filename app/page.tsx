@@ -6,7 +6,7 @@ import { mockTokens } from "@/data/mockTokens";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-gray-900 flex flex-col overflow-hidden">
+    <div className="h-screen bg-[#06070B] flex flex-col overflow-hidden">
       <div className="sticky top-0 z-50">
         <Header />
         <SecondaryNav />
