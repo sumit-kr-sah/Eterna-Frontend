@@ -1,6 +1,5 @@
-# Eterna - Cryptocurrency Token Tracker
+# Axiom Clone
 
-A modern, real-time cryptocurrency token tracking dashboard built with Next.js, React, and TypeScript. Monitor token pairs with live market data, transaction metrics, and detailed analytics.
 
 ## ✨ Features
 
